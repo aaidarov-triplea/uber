@@ -14,3 +14,10 @@
     padding: 0 19px;
     height: 27px;
 }
+
+@media screen and (max-width: 401px) {
+    button:last-child {
+        display: none;
+
+    }   
+}
