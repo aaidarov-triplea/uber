@@ -1,0 +1,16 @@
+.header-content {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img {
+    height: 13px;
+    width: 119px;
+    background-color: #999;
+}
+
+.buttons > button {
+    padding: 0 19px;
+    height: 27px;
+}
