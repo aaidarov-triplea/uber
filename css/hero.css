@@ -1,0 +1,46 @@
+.hero {
+   background-color: #D8D8D8;
+   width: 100%; 
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    height: 364px;
+}
+.hero-card {
+    width: 389px;
+    background-color: #fff;
+    padding: 38px;
+}
+.hero-card > h1 {
+    font-size: 36px;
+    color: #1d1d1d;
+    margin-bottom: 54px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    width: 97px;
+    height: 32px;
+    background-color: #262626;
+}
+
+@media screen and (max-width: 340px) {
+    .hero-card {
+        padding: 34px;
+        text-align: center;
+    }
+    .card-info {
+        flex-direction: column;
+
+    }
+    .card-info > p {
+        margin-bottom: 14px;
+    }  
+}

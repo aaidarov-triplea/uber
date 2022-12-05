@@ -1,0 +1,56 @@
+.card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-inner >h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card-boxs {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    border: 1px solid #75757533;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.card-boxs:nth-child(2n){
+    margin-right: 0;
+}
+
+.card-boxs_info {
+    padding: 16px;
+    width: 246px;
+}
+.boxs__title {
+    margin-bottom: 78px;
+}
+
+.boxs__img {
+    width: 170px;
+    height: 160px;
+    background-color: #d8d8d8;
+}
+/* ============Tablet====================== */
+@media screen and (max-width: 820px) {
+    .card-boxs{
+        width: 100%;
+        margin-right: 0;
+    }
+    .card-boxs:first-child {
+        margin-top: 0;
+    }
+    .cards-inner >h2 {
+        margin: 29px 0;
+    }
+}
+/* ===========Phone================== */
+@media screen and (max-width: 450px) {
+    .cards-inner >h2 {
+        text-align: center;
+        margin-bottom: 41px;
+    }
+}
